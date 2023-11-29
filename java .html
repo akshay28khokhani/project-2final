@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The onkeypress Event</h2>
+
+<p>A function is triggered when the user is pressing a key in the input field.</p>
+
+<script>
+    function myFunction(aa) {
+        if(aa.key === 'Enter'){
+            // alert("You pressed a key inside the input field");
+            alert("You pressed Enter inside the input field");
+        }
+    }
+    </script>
+    <input type="text" onkeyup="myFunction(event)">
+    <!-- <input type="text" onkeyup="myFunction(aa)"> -->
+    <button>Addd</button>
+    
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+
+    function myFunction(event) {
+        if (event.key === 'Enter') {
+            alert("You pressed Enter inside the input field");
+            // If you want to add text to the body, consider using the following line instead of document.write:
+            // document.body.textContent += "iehqdgiy7g";
+        }
+    }
+</script>
+
+<button>Add</button>
+</body>
+</html> -->
+
